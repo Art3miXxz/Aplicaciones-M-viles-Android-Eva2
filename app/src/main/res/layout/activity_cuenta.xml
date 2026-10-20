@@ -40,12 +40,12 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="10dp"
-        android:background="@color/black"
+        android:background="@color/white"
         android:ems="10"
         android:hint="Rut"
         android:inputType="text"
         android:textAlignment="center"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/black" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -60,12 +60,12 @@
             android:layout_marginTop="15dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:background="@color/black"
+            android:background="@color/white"
             android:ems="10"
             android:hint="Nombre"
             android:inputType="text"
             android:textAlignment="center"
-            android:textColorHint="@color/white" />
+            android:textColorHint="@color/black" />
 
         <EditText
             android:id="@+id/txtapecue"
@@ -75,12 +75,12 @@
             android:layout_marginTop="15dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:background="@color/black"
+            android:background="@color/white"
             android:ems="10"
             android:hint="Apellido"
             android:inputType="text"
             android:textAlignment="center"
-            android:textColorHint="@color/white" />
+            android:textColorHint="@color/black" />
     </LinearLayout>
 
     <EditText
@@ -90,26 +90,22 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="10dp"
-        android:background="@color/black"
+        android:background="@color/white"
         android:ems="10"
         android:hint="Correo electronico"
         android:inputType="text"
         android:textAlignment="center"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/black" />
 
-    <EditText
-        android:id="@+id/txtcarcue"
+    <Spinner
+        android:id="@+id/spncarcue"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="10dp"
-        android:background="@color/black"
-        android:ems="10"
-        android:hint="Cargo"
-        android:inputType="text"
-        android:textAlignment="center"
-        android:textColorHint="@color/white" />
+        android:background="@color/white"
+        android:textAlignment="center" />
 
     <EditText
         android:id="@+id/txtconcue"
@@ -118,12 +114,12 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="10dp"
-        android:background="@color/black"
+        android:background="@color/white"
         android:ems="10"
         android:hint="Contraseña"
         android:inputType="numberPassword"
         android:textAlignment="center"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/black" />
 
     <EditText
         android:id="@+id/txtcon2cue"
@@ -132,12 +128,12 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="10dp"
-        android:background="@color/black"
+        android:background="@color/white"
         android:ems="10"
         android:hint="Repetir Contraseña"
         android:inputType="numberPassword"
         android:textAlignment="center"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/black" />
 
     <LinearLayout
         android:layout_width="match_parent"

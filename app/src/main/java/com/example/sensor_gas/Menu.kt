@@ -18,7 +18,7 @@ class Menu : AppCompatActivity() {
     private lateinit var btn2: Button
     private lateinit var btn3: Button
     private lateinit var btn4: Button
-    private lateinit var btn5: Button // Botón Cerrar Sesión
+    private lateinit var btn5: Button
 
     private var usu: Usuario? = null
 

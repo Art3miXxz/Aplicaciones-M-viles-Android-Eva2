@@ -13,9 +13,9 @@ import androidx.core.view.WindowInsetsCompat
 class Estadisticas : AppCompatActivity() {
 
     private lateinit var tvusuestadisticas: TextView
-    private lateinit var tv3est: TextView // Campo donde se mostrará el nombre del usuario
-    private lateinit var tv6est: TextView // Activación de sensor
-    private lateinit var tv9est: TextView // Hora
+    private lateinit var tv3est: TextView
+    private lateinit var tv6est: TextView
+    private lateinit var tv9est: TextView
     private lateinit var btnvolest: Button
 
     private var usu: Usuario? = null
