@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".Cuenta">
+
+    <TextView
+        android:id="@+id/tvusucuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Bienvenido Usuario:"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvtitcuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Crear Cuenta"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtrut"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/black"
+        android:ems="10"
+        android:hint="Rut"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtnomcue"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/txtapecue"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:ems="10"
+            android:hint="Apellido"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColorHint="@color/white" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtcorcue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/black"
+        android:ems="10"
+        android:hint="Correo electronico"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/txtcarcue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/black"
+        android:ems="10"
+        android:hint="Cargo"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/txtconcue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/black"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="numberPassword"
+        android:textAlignment="center"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/txtcon2cue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/black"
+        android:ems="10"
+        android:hint="Repetir Contraseña"
+        android:inputType="numberPassword"
+        android:textAlignment="center"
+        android:textColorHint="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#2196F3"
+            android:text="Registrar" />
+
+        <Button
+            android:id="@+id/btnvolcue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E70B0B"
+            android:text="Volver" />
+    </LinearLayout>
+</LinearLayout>
